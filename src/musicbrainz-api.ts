@@ -50,7 +50,8 @@ export type Includes =
   | 'series-rels'
   | 'url-rels'
   | 'work-rels'
-  | 'tags';
+  | 'tags'
+  | 'genres';
 
 const debug = Debug('musicbrainz-api');
 
