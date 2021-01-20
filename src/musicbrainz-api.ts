@@ -49,7 +49,8 @@ export type Includes =
   | 'release-group-rels'
   | 'series-rels'
   | 'url-rels'
-  | 'work-rels';
+  | 'work-rels'
+  | 'tags';
 
 const debug = Debug('musicbrainz-api');
 
