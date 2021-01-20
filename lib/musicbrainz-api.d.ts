@@ -8,7 +8,7 @@ export * from './musicbrainz.types';
 /**
  * https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2#Subqueries
  */
-export declare type Includes = 'artists' | 'releases' | 'recordings' | 'artists' | 'artist-credits' | 'isrcs' | 'url-rels' | 'release-groups' | 'aliases' | 'discids' | 'annotation' | 'media' | 'area-rels' | 'artist-rels' | 'event-rels' | 'instrument-rels' | 'label-rels' | 'place-rels' | 'recording-rels' | 'release-rels' | 'release-group-rels' | 'series-rels' | 'url-rels' | 'work-rels' | 'tags';
+export declare type Includes = 'artists' | 'releases' | 'recordings' | 'artists' | 'artist-credits' | 'isrcs' | 'url-rels' | 'release-groups' | 'aliases' | 'discids' | 'annotation' | 'media' | 'area-rels' | 'artist-rels' | 'event-rels' | 'instrument-rels' | 'label-rels' | 'place-rels' | 'recording-rels' | 'release-rels' | 'release-group-rels' | 'series-rels' | 'url-rels' | 'work-rels' | 'tags' | 'genres';
 export interface IFormData {
     [key: string]: string | number;
 }
