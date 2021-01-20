@@ -77,6 +77,7 @@ export interface IRelease {
     relations?: IRelation[];
     'artist-credit'?: IArtistCredit[];
     'release-group'?: IReleaseGroup;
+    genre?: IGenre[];
 }
 export interface IReleaseEvent {
     area?: IArea;
@@ -130,6 +131,7 @@ export interface IReleaseGroup {
         artist: IArtist;
     }>;
     releases?: IRelease[];
+    genre?: IGenre[];
 }
 export interface IArtistMatch extends IArtist, IMatch {
 }
@@ -249,4 +251,10 @@ export interface ISearchQuery extends IPagination {
      * Lucene search query, this is mandatory
      */
     query: string;
+}
+export interface IGenre {
+    name: string;
+    count: number;
+    id: string;
+    disambiguation: string;
 }
