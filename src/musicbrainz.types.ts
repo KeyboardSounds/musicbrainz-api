@@ -82,7 +82,7 @@ export interface IRelease {
   relations?: IRelation[];
   'artist-credit'?: IArtistCredit[]; // Include 'artist-credits '
   'release-group'?: IReleaseGroup; // Include: 'release-groups'
-  genre?: IGenre[];
+  genres?: IGenre[];
 }
 
 export interface IReleaseEvent {
@@ -141,7 +141,7 @@ export interface IReleaseGroup {
   'sort-name': string;
   'artist-credit': Array<{ artist: IArtist }>;
   releases?: IRelease[]; // include 'releases'
-  genre?: IGenre[];
+  genres?: IGenre[];
 }
 
 export interface IArtistMatch extends IArtist, IMatch {
