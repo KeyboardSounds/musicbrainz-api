@@ -1,7 +1,6 @@
 node_modules/
 .idea/
 *.iml
-lib/
 test/**/*.js
 test/**/*.map
 test/**/*.d.ts
