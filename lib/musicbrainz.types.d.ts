@@ -132,6 +132,7 @@ export interface IReleaseGroup {
     }>;
     releases?: IRelease[];
     genres?: IGenre[];
+    'first-release-date'?: string;
 }
 export interface IArtistMatch extends IArtist, IMatch {
 }
