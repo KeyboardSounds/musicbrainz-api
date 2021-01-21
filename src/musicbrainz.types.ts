@@ -142,6 +142,7 @@ export interface IReleaseGroup {
   'artist-credit': Array<{ artist: IArtist }>;
   releases?: IRelease[]; // include 'releases'
   genres?: IGenre[];
+  'first-release-date'?: string;
 }
 
 export interface IArtistMatch extends IArtist, IMatch {
