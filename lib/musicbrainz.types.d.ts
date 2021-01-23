@@ -128,6 +128,7 @@ export interface IReleaseGroup {
     'primary-type': string;
     'sort-name': string;
     'artist-credit': Array<{
+        name: string;
         artist: IArtist;
     }>;
     releases?: IRelease[];

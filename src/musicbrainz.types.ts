@@ -139,7 +139,7 @@ export interface IReleaseGroup {
   title: string;
   'primary-type': string;
   'sort-name': string;
-  'artist-credit': Array<{ artist: IArtist }>;
+  'artist-credit': Array<{ name: string, artist: IArtist }>;
   releases?: IRelease[]; // include 'releases'
   genres?: IGenre[];
   'first-release-date'?: string;
